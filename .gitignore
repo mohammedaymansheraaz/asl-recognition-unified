@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files (optional - uncomment if you want to exclude)
+# models/vocabulary/best.keras
+# models/vocabulary/*.npy
+# models/alphabet/*.tflite
+
+# Logs
+*.log
